@@ -1,4 +1,5 @@
 var withButtonItemsClass = document.getElementsByClassName('button');
-for (var i = 0; i < withButtonItemsClass.length; i++) {
-  alert(document.getElementById('button').innerHTML);
+var j = withButtonItemsClass.length;
+for (var i = 0; i < j; i++) {
+  alert(withButtonItemsClass[i].innerText)
 }
